@@ -1,0 +1,21 @@
+{
+  "name": "module2",
+  "version": "1.0.0",
+  "description": "This simple IP tracing app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "IP"
+  ],
+  "author": "Vairavel",
+  "license": "",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.1.6"
+  }
+}

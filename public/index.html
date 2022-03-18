@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Data Selfie App</h1>
+    <div><a href="/">enter</a> | <a href="#">list</a></div>
+  
+    <h3>Public IP Address of user is:</h3>
+    <p id="gfg"></p>
+
+    <!-- <a href="index2.html"> -->
+      <button id="submit" onclick="myFunction()">submit</button>
+    <!-- </a> -->
+    <button onclick="myFunction()">Replace document</button>
+
+    <script>
+    function myFunction() {
+      window.location.href = "./index2.html";
+    }
+    </script>
+    <script type="module" src="sketch.js"></script>
+    <script type="module" src="sketch2.js"></script>
+    <script type="module" src="app.js" ></script>
+    <!-- <script type="text/javascript" src="https://l2.io/ip.js?var=myip"></script> -->
+  </body>
+</html>
