@@ -11,7 +11,7 @@ app.use(express.json({ limit: '1mb' }));
 
 const { MongoClient } = require("mongodb");
 
-// mongodb+srv://new-user:9941476602@cluster0.opmn5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 // Replace the following with your Atlas connection string                                                                                                                                        
 const url = "***";
 const client = new MongoClient(url);
